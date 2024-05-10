@@ -14,7 +14,7 @@ const app = express();
 const PORT = 8002;
 const { checkForAuthentication, restrictTo } = require("./middlewares/auth");
 
-connectToMongoDB("mongodb://localhost:27017/short-url").then(() =>
+connectToMongoDB("mongodb+srv://Aman:aman123@cluster0.7pfuv2r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() =>
   console.log("Mongodb connected")
 );
 
