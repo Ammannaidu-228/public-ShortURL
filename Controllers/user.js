@@ -1,6 +1,6 @@
 
-const User = require('../Models/user');
-const {setUser} = require('../service/auth');
+const User = require("../Models/user");
+const {setUser} = require("../service/auth");
 
 
 async function handleUserSignUp(req, res) {

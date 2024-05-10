@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const URL = require('../Models/url');
+const URL = require("../Models/url");
 const { restrictTo } = require("../middlewares/auth");
 
 
